@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{dab61197-d69a-474e-b524-8ad8247f028d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\js.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsarena.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsarray.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsatom.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsbool.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jscntxt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdbgapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdhash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdtoa.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsemit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsexn.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsfile.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsfun.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsgc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jshash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsinterp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jslock.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jslog2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jslong.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsmath.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsnum.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsobj.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsopcode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsprf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsregexp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscan.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscope.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscript.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsstr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsxdrapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsxml.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prmjtime.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\js.msg">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsfile.msg">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsopcode.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsshell.msg">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\README.html">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\jsapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsarena.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsarray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsatom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsbit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsbool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsclist.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscntxt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsconfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscpucfg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdbgapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdhash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdtoa.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsemit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsexn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsfile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsfun.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsgc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jshash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsinterp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslibmath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslong.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsmath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsnum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsobj.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsopcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsosdep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsotypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsparse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsprf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsprvtd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jspubtd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsregexp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscan.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscope.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscript.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstddef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jstypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsutil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsxdrapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsxml.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\prmjtime.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6d7e6b6d-cc9d-4947-a4a2-a8241224c2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_shell">
+      <UniqueIdentifier>{f2f8d1f3-844a-49ab-9b21-2d85bfca009e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_perf">
+      <UniqueIdentifier>{0c2e1475-c040-4d21-98c0-728c762d518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_yarr_pcre">
+      <UniqueIdentifier>{2c2e5640-c881-4ca0-ab33-07fc6211851c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_assembler_wtf">
+      <UniqueIdentifier>{30d6618f-dca9-4b75-8823-e00f78228187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_yarr">
+      <UniqueIdentifier>{b3cd486e-d20f-47c7-bea5-be16f2949562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_yarr_wtf">
+      <UniqueIdentifier>{64796d72-0942-44c4-943f-22a905453515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src_yarr_yarr">
+      <UniqueIdentifier>{b57a9e57-2cfc-47a3-b92f-2cf2f379b929}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\jsanalyze.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsapi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsarena.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsarray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsatom.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsbool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsbuiltins.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsclone.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jscntxt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jscompartment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdbgapi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdhash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsdtoa.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsemit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsexn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsfriendapi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsfun.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsgc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsgcchunk.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsgcstats.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jshash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsinterp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsinvoke.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsiter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jslock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jslog2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsnativestack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsnum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsobj.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsopcode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsparse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsprf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsprobes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jspropertycache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jspropertytree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsproxy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsreflect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsregexp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscan.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscope.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsscript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsstr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jstracer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jstypedarray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsutil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jswrapper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsxdrapi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsxml.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\prmjtime.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sharkctl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shell\js.cpp">
+      <Filter>src_shell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shell\jsworkers.cpp">
+      <Filter>src_shell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\perf\jsperf.cpp">
+      <Filter>src_perf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\perf\pm_stub.cpp">
+      <Filter>src_perf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\pcre_compile.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\pcre_exec.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\pcre_tables.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\pcre_ucp_searchfuncs.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\pcre_xclass.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dtoa.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\ucptable.cpp">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="src\yarr\pcre\chartables.c">
+      <Filter>src_yarr_pcre</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\jitstats.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\js.msg">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsast.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jskeyword.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsopcode.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsproto.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsreops.tbl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\jsshell.msg">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\jsanalyze.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsarena.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsarray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsatom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsatominlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsbit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsbool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsbuiltins.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsclist.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsclone.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscntxt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscntxtinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscompartment.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdbgapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdbgapiinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdhash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsdtoa.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsemit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsexn.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsfriendapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsfun.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsfuninlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsgc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsgcchunk.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsgcinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsgcstats.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jshash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jshashtable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jshotloop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsinterp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsinterpinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsinttypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsiter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslibmath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jslong.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsmath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsnativestack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsnum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsobj.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsobjinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsopcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsopcodeinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsotypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsparse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsprf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsprobes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jspropertycache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jspropertycacheinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jspropertytree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsproxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsprvtd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jspubtd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsreflect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsregexp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsregexpinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscan.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscope.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscopeinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscript.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsscriptinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstaticcheck.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstdint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsstrinlines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jstl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jstracer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jstypedarray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jstypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsutil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsval.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsvalue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsvector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsversion.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jswin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jswrapper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsxdrapi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsxml.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\prmjtime.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sharkctl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shell\jsworkers.h">
+      <Filter>src_shell</Filter>
+    </ClInclude>
+    <ClInclude Include="js-config.h" />
+    <ClInclude Include="js-confdefs.h" />
+    <ClInclude Include="src\perf\jsperf.h">
+      <Filter>src_perf</Filter>
+    </ClInclude>
+    <ClInclude Include="jsautokw.h" />
+    <ClInclude Include="jsautooplen.h" />
+    <ClInclude Include="src\yarr\pcre\pcre.h">
+      <Filter>src_yarr_pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\pcre\pcre_internal.h">
+      <Filter>src_yarr_pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\pcre\ucpinternal.h">
+      <Filter>src_yarr_pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jscpucfg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assembler\wtf\Platform.h">
+      <Filter>src_assembler_wtf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\jswtfbridge.h">
+      <Filter>src_yarr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\wtf\ASCIICType.h">
+      <Filter>src_yarr_wtf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\yarr\RegexCommon.h">
+      <Filter>src_yarr_yarr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\yarr\yarr\RegexParser.h">
+      <Filter>src_yarr_yarr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>
